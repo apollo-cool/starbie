@@ -2140,7 +2140,7 @@
 		)
 		(uuid "c58aa72f-26bd-4fba-b5fc-228f52421a9a")
 	)
-	(label "GPIO1"
+	(label "DHT11 DATA"
 		(at 124.46 50.8 180)
 		(effects
 			(font
@@ -2240,7 +2240,7 @@
 		)
 		(uuid "65dc9dbf-82de-4b17-adf7-931a000327bb")
 	)
-	(label "GPIO1"
+	(label "GPIO3"
 		(at 31.75 60.96 180)
 		(effects
 			(font

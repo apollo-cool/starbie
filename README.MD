@@ -10,4 +10,3 @@ It's one of the starter projects for people particapting in the Half-Life event 
 
 Here's how mines looks so far:
 ![alt text](docs/image.png)
-*pretend there's an image here*

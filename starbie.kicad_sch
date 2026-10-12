@@ -2050,6 +2050,74 @@
 		)
 		(uuid "07dcf6dc-3a24-41ee-a71f-95a75c4c9ca5")
 	)
+	(no_connect
+		(at 113.03 116.84)
+		(uuid "04499d30-3768-4d70-92e2-c851d2c74d1e")
+	)
+	(no_connect
+		(at 124.46 69.85)
+		(uuid "0bd615db-9903-4df5-882f-737f10ba5004")
+	)
+	(no_connect
+		(at 147.32 78.74)
+		(uuid "12a19054-fb27-42d1-9130-ab31ea681a99")
+	)
+	(no_connect
+		(at 151.13 34.29)
+		(uuid "1d6190f7-17f4-4b3e-aff8-a20b60dac0a2")
+	)
+	(no_connect
+		(at 143.51 34.29)
+		(uuid "25dfd2ff-cbc2-4975-b373-e029ef1f9327")
+	)
+	(no_connect
+		(at 166.37 66.04)
+		(uuid "61b74419-90e7-47b0-bccb-6aa1acb121d7")
+	)
+	(no_connect
+		(at 143.51 78.74)
+		(uuid "81155ab3-820e-4822-8b3d-5af0978b71ad")
+	)
+	(no_connect
+		(at 139.7 34.29)
+		(uuid "a32d97ad-1711-489f-820c-29d1fd794e45")
+	)
+	(no_connect
+		(at 124.46 46.99)
+		(uuid "aed7759a-d310-4f5d-b9d3-450c7ac83237")
+	)
+	(no_connect
+		(at 166.37 62.23)
+		(uuid "b3bc1f8c-2aea-4d5f-b4f4-7419bb23b36f")
+	)
+	(no_connect
+		(at 166.37 69.85)
+		(uuid "bc52e253-0830-4d48-ab9d-0a85b31f0735")
+	)
+	(no_connect
+		(at 166.37 58.42)
+		(uuid "c672c7cd-4da3-435c-80a5-be9c883f2772")
+	)
+	(no_connect
+		(at 113.03 111.76)
+		(uuid "c6fa8bc5-00b9-4819-8f63-acfd607cd6ea")
+	)
+	(no_connect
+		(at 113.03 119.38)
+		(uuid "c9da013a-d7e2-4852-9faa-4235e2790772")
+	)
+	(no_connect
+		(at 135.89 34.29)
+		(uuid "d3fab3ff-3121-42c6-be0c-c5c2d968d992")
+	)
+	(no_connect
+		(at 154.94 34.29)
+		(uuid "dc417004-dc22-4820-af9c-d543eb5d81ef")
+	)
+	(no_connect
+		(at 113.03 114.3)
+		(uuid "ebc4985b-9ee1-4862-85ef-2155e0e75a1b")
+	)
 	(wire
 		(pts
 			(xy 29.21 99.06) (xy 29.21 96.52)
@@ -2059,6 +2127,16 @@
 			(type default)
 		)
 		(uuid "2a1f35b2-a2b0-40c3-aadf-e56dd9ed8d38")
+	)
+	(wire
+		(pts
+			(xy 147.32 17.78) (xy 147.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1acc14-f507-472d-a8c2-6001ebcc79d8")
 	)
 	(wire
 		(pts
@@ -2112,6 +2190,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 20.32) (xy 143.51 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79d7356-7151-4b47-8d23-58ee88c51c10")
+	)
+	(wire
+		(pts
 			(xy 170.18 46.99) (xy 166.37 46.99)
 		)
 		(stroke
@@ -2140,6 +2228,16 @@
 		)
 		(uuid "c58aa72f-26bd-4fba-b5fc-228f52421a9a")
 	)
+	(wire
+		(pts
+			(xy 143.51 17.78) (xy 147.32 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fbf4fd-a24b-4260-9e3a-46bc8b4b9f17")
+	)
 	(label "DHT11 DATA"
 		(at 124.46 50.8 180)
 		(effects
@@ -2159,26 +2257,6 @@
 			(justify right bottom)
 		)
 		(uuid "03244bd2-2b00-4be8-94ac-4cc37e3501e3")
-	)
-	(label "X"
-		(at 113.03 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c74f324-2772-446c-a173-246b88c0728a")
-	)
-	(label "x"
-		(at 166.37 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d839bc3-e958-4cb7-8175-1691cc7043a8")
 	)
 	(label "GPIO2"
 		(at 124.46 54.61 180)
@@ -2210,16 +2288,6 @@
 		)
 		(uuid "338a3dbf-f2ce-474d-aa93-7c680e44f178")
 	)
-	(label "X"
-		(at 166.37 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36966bff-d808-4b8d-84a6-c8b15eaa7503")
-	)
 	(label "GPIO3"
 		(at 124.46 58.42 180)
 		(effects
@@ -2229,16 +2297,6 @@
 			(justify right bottom)
 		)
 		(uuid "646d20ba-ec45-448a-ae2a-2412edf05286")
-	)
-	(label "X"
-		(at 113.03 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65dc9dbf-82de-4b17-adf7-931a000327bb")
 	)
 	(label "GPIO3"
 		(at 31.75 60.96 180)
@@ -2270,26 +2328,6 @@
 		)
 		(uuid "99d05e06-64e0-49d7-88b3-f653b1908eda")
 	)
-	(label "X"
-		(at 166.37 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9df1077c-90dc-4812-8de0-d3bad3545b4d")
-	)
-	(label "X"
-		(at 124.46 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ae8854ae-c489-4fe6-977a-f6ece96130c4")
-	)
 	(label "SCL"
 		(at 34.29 96.52 270)
 		(effects
@@ -2299,26 +2337,6 @@
 			(justify right bottom)
 		)
 		(uuid "afcd2297-0ff5-48bf-b542-e8a162c9f072")
-	)
-	(label "X"
-		(at 124.46 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6a4ced9-a246-4e8b-ab46-10ea9b98454e")
-	)
-	(label "X"
-		(at 113.03 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9a534b2-9eb8-4faa-9ad1-8553ae78568a")
 	)
 	(label "SCL"
 		(at 124.46 62.23 180)
@@ -2340,16 +2358,6 @@
 		)
 		(uuid "e5c2b8fd-5498-4d6b-b7db-f15cf01cdaac")
 	)
-	(label "X"
-		(at 113.03 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e877206d-3988-4ea2-89b6-9788f058ae6f")
-	)
 	(label "DHT11 DATA"
 		(at 194.31 123.19 180)
 		(effects
@@ -2359,16 +2367,6 @@
 			(justify right bottom)
 		)
 		(uuid "eb27ea45-e161-47d1-adcf-6788dc252017")
-	)
-	(label "X"
-		(at 166.37 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc95199b-3542-4600-b5e1-60b8b6f120ad")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3642,6 +3640,84 @@
 			(project "starbie"
 				(path "/4e57b60e-1224-48f9-935a-2d2f539b6322"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9c11c36-dd95-4c7e-92fa-4721f56a996d")
+		(property "Reference" "#PWR013"
+			(at 143.51 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66e7320a-f112-45c2-bc7a-189bbae74da4")
+		)
+		(instances
+			(project "starbie"
+				(path "/4e57b60e-1224-48f9-935a-2d2f539b6322"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
